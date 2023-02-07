@@ -1,0 +1,171 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+.home {
+    Background-color: #Bbcedc;
+  
+}
+.about {    
+    background-image: url("lstore_41.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+}
+
+nav, section, div, ul, li, a, h1, h2, p {
+    /*background-color: rgba(170, 200, 175, 0.1);*/
+    /*border: 1px solid rgba(170, 200, 175);*/
+}
+
+a:visited {
+    color: black;
+    transition: .3s;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.navbar {
+    margin: 0;
+    min-height: 50px;
+    padding: 5px 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+}
+.navbar li a {
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+}
+.navbar li a:visited {
+    color: black;
+    transition: .3s;
+}
+.navbar li a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.home-hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-hero h1 {
+    font-size: 54px;
+    text-color: #E5fb00;
+    margin: 10px 0; 
+}
+.home-hero p {
+    max-width: 500px;
+    font-size: 20px;
+    margin: 72px 0 0;
+    line-height: 1.5em;
+}
+.about-hero {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: flex-end;*/
+    text-align: justify;
+    /*text-align-last: right;*/
+    text-align-last: center;
+}
+.about-hero h1 {
+    font-size: 36px;
+    margin: 10px 0; 
+}
+.about-hero p {
+    max-width: 500px;
+    font-size: 16px;
+    margin: 72px 0;
+    line-height: 1.5em;
+}
+
+.home-projects {
+    padding: 10px 100px;
+}
+.section-header {
+    text-align: center;
+    margin: 10px 50px;
+}
+.section-header h1 {
+    font-size: 36px;
+}
+.section-header p {
+    font-size: 16px;
+}
+.project-item {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    background-color: rgba(255,255,255,0.8);
+}
+.project-item div {
+    margin:25px 50px;
+}
+.project-item h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.project-item img {
+    max-width: 400px;
+}
+.project-item p {
+    font-size: 16px;
+}
+
+.about-links {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.about-links p, .about-links a {
+    font-size: 12px;
+}
+.link-icons a {
+    font-size: 16px;
+}
+.about-links p {
+/*    margin: 10px 0;
+*/}
+.about-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.about-links li {
+    display: inline;
+    margin: 10px;
+    padding: 0;
+}
+.about-links a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.about-links a:visited {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.about-links a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}

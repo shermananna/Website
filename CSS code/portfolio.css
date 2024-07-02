@@ -1,14 +1,14 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('Documents/Website/Fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+    src: url('Fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
     font-weight: bolder;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Monteserrat';
-    src: url('Documents/Website/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');
+    src: url('Fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-size: 15px;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Monteserrat bold';
-    src: url('Documents/Website/Fonts/Montserrat/static/Montserrat-Bold.ttf') format('opentype');
+    src: url('Fonts/Montserrat/static/Montserrat-Bold.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-size: 15px;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Jost';
-    src: url('Documents/Website/Fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
+    src: url('Fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-size: 15px;

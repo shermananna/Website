@@ -77,19 +77,19 @@ body{
 
 
     padding-left: 30px;
-
-    p1 {
-        font-family: 'Jost';
-        font-size: 18px;
-        color: white;
-    }
-
-    p2 {
-        font-family: 'Monteserrat';
-        font-size: 13px;
-        color: white;
-    }
 }
+
+p1 {
+    font-family: 'Jost';
+    font-size: 18px;
+    color: white;
+}
+
+p2 {
+    font-family: 'Monteserrat';
+    font-size: 13px;
+    color: white;
+    }
 
 .bold{
     font-family: 'Monteserrat bold';

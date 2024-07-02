@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Documents/Website/Fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monteserrat';
+    src: url('Documents/Website/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+} 
+
+@font-face {
+    font-family: 'Monteserrat bold';
+    src: url('Documents/Website/Fonts/Montserrat/static/Montserrat-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+} 
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Documents/Website/Fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+header{
+    font-family: 'Jost';
+    font-size: 18px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: flex-end;
+    text-align: center;
+}
+
+nav ul li {
+    margin-right: 50px; 
+    margin-top: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white; /* Change to desired hover color */
+}
+
+body {
+    background: radial-gradient(circle, 
+    rgb(255, 92, 209) 20%, 
+    rgb(255, 185, 94) 70%);
+
+    font-family: 'Jost';
+    font-size: 17px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-family: 'Gilroy';
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.tutoring-section {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+
+.tutoring-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns per row */
+    gap: 20px; /* Gap between items */
+}
+
+.tutoring-item {
+    padding: 20px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+
+.tutoring-item h3 {
+    margin-top: 0;
+}
+
+.tutoring-item p {
+    margin-bottom: 10px;
+}
+
+.rate {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.reviews-section {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+.reviews-section h2 {
+    text-align: center;
+    color: white;
+}
+
+.review {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+.bold{
+    font-family: 'Monteserrat Bold';
+}

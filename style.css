@@ -1,23 +1,33 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('https://fonts.cdnfonts.com/css/gilroy-bold') format('truetype');
+    src: url('Gilroy-Bold.ttf') format('truetype');
     font-weight: bolder;
     font-style: normal;
 }
 
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+@font-face {
+    font-family: 'Monteserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+} 
 
-.jost-<uniquifier> {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+@font-face {
+    font-family: 'Monteserrat bold';
+    src: url('Montserrat-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+} 
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
 }
 
 header{
